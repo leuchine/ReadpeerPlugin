@@ -1,0 +1,97 @@
+html,body {
+	background-color: rgba(250, 250, 250, 0.7);
+	margin: 0;
+	padding: 0;
+	min-width: 490px;
+	rgb
+	(100,
+	100,
+	100);
+}
+
+html,body {overflow-x:hidden;}
+
+ul {
+	list-style-type: none;
+	margin: 2px 0px 0px 0px;
+	padding: 0;
+	clear: both;
+}
+
+li {
+	float: left;
+	margin: 3px 0px 0px 0px;
+}
+
+a.nav:link,a.nav:visited {
+	display: block;
+	width: 80px;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	color: rgb(42, 100, 150);
+	font-size: 16px;
+}
+
+a.nav:hover,a.nav:active {
+	background-color: #fff4dc;
+	color: rgb(42, 100, 150);
+	font-size: 16px;
+}
+
+#avatar {
+	float: left;
+}
+
+#name {
+	font-size: 16px;
+	color: #2A6496;
+}
+
+#logout {
+	font-size: 11px;
+	color: #2A6496;
+}
+
+#head {
+	margin: 4px 0px 0px 4px
+}
+
+a {
+	text-decoration: none;
+	color: rgb(42, 100, 150);
+}
+
+a.link:hover {
+	text-decoration: underline;
+}
+
+#newfeeds {
+	clear: both;
+}
+
+.feeds {
+	border: 1px solid rgb(221, 221, 221);
+	margin: 3px 2px 3px 2px;
+	padding: 2px 2px 2px 2px;
+	font-size: 14px;
+}
+
+.content {
+	margin: 0px 0px 0px 30px;
+}
+
+.yellow {
+	background-color: rgb(255, 252, 206);
+}
+
+iframe {
+	border: 0px solid;
+	min-width: 482px;
+	min-height: 350px;
+}
+
+.tab{
+	border: solid rgb(42, 100, 150);
+	border-width: 0px 0px 1px 0px;
+}

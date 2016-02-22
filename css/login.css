@@ -1,0 +1,46 @@
+body {
+	background-image: url(../images/bg.png);
+	margin: 0;
+	font-family: Arial,sans-serif,"Helvetica Neue",Helvetica
+}
+
+html,body {overflow:hidden;}
+
+#nav {
+	background-image: url(../images/nav_bar.png)
+}
+
+#error {
+	font-size: 10px;
+	color: #8c2e0b;
+	margin: 2px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+span.words {
+	color: #646464;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.input {
+	background-color:#FAFFBD ;
+}
+
+#signin,#signup {
+	background-color: #37b487;
+	border: solid 1px #12958a;
+	color: white;
+	font-size: 10px;
+	margin: 5px 0px 0px 0px;
+	padding: 5px 8px 5px 8px;
+}
+
+#signin:hover,#signup:hover {
+	background-color: #12958a;
+	cursor: pointer;
+}
+
+#content {
+	margin: 10px;
+}

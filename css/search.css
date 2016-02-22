@@ -1,0 +1,131 @@
+html,body {
+	background-color : rgba(250, 250, 250, 0.7);
+	margin           : 0;
+	padding          : 0;
+	/*README*/
+/*	rgb(100,
+	100,
+	100);*/
+}
+
+html,body {
+	overflow-x: hidden;
+	-webkit-transition : 500ms linear;
+	-moz-transition    : 500ms linear;
+	-o-transition      : 500ms linear;
+	-ms-transition     : 500ms linear;
+	transition         : 500ms linear;
+}
+
+#name {
+	font-size : 16px;
+	color     : #2A6496;
+}
+
+#head {
+	margin: 3px 0px 0px 3px
+}
+
+a {
+	text-decoration : none;
+	color           : rgb(42, 100, 150);
+}
+
+a.link:hover {
+	text-decoration: underline;
+}
+
+#newfeeds {
+	clear: both;
+}
+
+.feeds {
+	border    : 1px solid rgb(221, 221, 221);
+	margin    : 3px 2px 3px 2px;
+	padding   : 2px 2px 2px 2px;
+	font-size : 15px;
+	max-width : 580px;
+}
+
+.annotationContent {
+	margin     : 0 0 0 30px;
+	word-break : break-all;
+	text-align : left;
+}
+
+.yellow {
+	background-color : #f9ffbc;
+	font-style       : oblique;
+}
+
+.italicYellowBg {
+	font-style       : italic;
+	background-color : #f9ffbc;
+}
+
+#selection {
+	font-size : 16px;
+	color     : rgb(42, 100, 150);
+}
+
+#head {
+	color     : rgb(100, 100, 100);
+	font-size : 12px;
+}
+
+#nav {
+	background-image: url(../images/nav_bar.png)
+}
+
+#feed {
+	margin: 5px;
+}
+
+.inner{
+	max-width: 490px;
+}
+
+#resultDiv{
+	background : oldlace;
+	width      : 300px;
+	position   : relative;
+	/*bottom   : 0;*/
+	top        : 	25px;
+	float      : right;
+	overflow-y : scroll;
+}
+
+#sidebarDiv{
+	width              : 0;
+	height             : 0;
+	position           : fixed;
+	right              : 0;
+	bottom             : 0;
+	overflow-y         : scroll;
+	-webkit-transition : 300ms linear;
+	-moz-transition    : 300ms linear;
+	-o-transition      : 300ms linear;
+	-ms-transition     : 300ms linear;
+	transition         : 300ms linear;
+}
+
+.windowButton{
+	float: right;
+	border-radius:	6px;
+	width: 25px
+}
+
+#resizeButtonDiv{
+	right        : 0;
+	margin-right : 40px;
+	position     : fixed;
+	z-index      : 9999;
+}
+
+#minButton{
+	background-color: red;
+}
+
+#maxButton{
+	background-color:  green;
+}
